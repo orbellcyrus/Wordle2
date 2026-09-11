@@ -36,7 +36,7 @@ type KeyboardProps = {
 }
 export default function Keyboard({handleBackSpace,handleQ,handleW,handleE,handleI,handleO,handleP,handleR,handleT,handleU,handleY,handleA,handleD,handleF,handleG,handleH,handleJ,handleK,handleL,handleS,handleB,handleC,handleEnter,handleM,handleN,handleV,handleX,handleZ}:KeyboardProps){
     return(
-        <div className="text-2xl font-bold flex flex-col items-center gap-2 ">
+        <div className="md:text-2xl sm:text-xl font-bold flex flex-col items-center gap-2 ">
             <div className="[&>*]:rounded-xl [&>*]:bg-[#818384] [&>*]:w-10  [&>*]:h-15 flex gap-2">
                 <button onClick={handleQ}> Q </button>
                 <button onClick={handleW}> W </button>
