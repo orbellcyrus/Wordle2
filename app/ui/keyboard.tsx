@@ -37,7 +37,7 @@ type KeyboardProps = {
 export default function Keyboard({handleBackSpace,handleQ,handleW,handleE,handleI,handleO,handleP,handleR,handleT,handleU,handleY,handleA,handleD,handleF,handleG,handleH,handleJ,handleK,handleL,handleS,handleB,handleC,handleEnter,handleM,handleN,handleV,handleX,handleZ}:KeyboardProps){
     return(
         <div className="md:text-2xl sm:text-xl font-bold flex flex-col items-center gap-2 ">
-            <div className="[&>*]:rounded-xl [&>*]:bg-[#818384] [&>*]:w-10  [&>*]:h-15 flex gap-2">
+            <div className="[&>*]:rounded-xl [&>*]:bg-[#818384] [&>*]:w-7  [&>*]:h-10 flex gap-1 md:gap-2 [&>*]:md:w-10  [&>*]:md:h-15 ">
                 <button onClick={handleQ}> Q </button>
                 <button onClick={handleW}> W </button>
                 <button onClick={handleE}> E </button>
@@ -49,7 +49,7 @@ export default function Keyboard({handleBackSpace,handleQ,handleW,handleE,handle
                 <button onClick={handleO}> O </button>
                 <button onClick={handleP}> P </button>
             </div>
-            <div className="[&>*]:rounded-xl [&>*]:bg-[#818384] [&>*]:w-10  [&>*]:h-15 flex gap-2 ">
+            <div className="[&>*]:rounded-xl [&>*]:bg-[#818384] [&>*]:w-7  [&>*]:h-10 flex gap-1 md:gap-2 [&>*]:md:w-10  [&>*]:md:h-15 ">
                 <button onClick={handleA}> A </button>
                 <button onClick={handleS}> S </button>
                 <button onClick={handleD}> D </button>
@@ -63,7 +63,7 @@ export default function Keyboard({handleBackSpace,handleQ,handleW,handleE,handle
 
             <div className="flex gap-2">
                 <button className = "bg-[#818384] rounded-xl"onClick={handleEnter}>ENTER</button>
-                <div className="[&>*]:rounded-xl [&>*]:bg-[#818384] [&>*]:w-10  [&>*]:h-15 flex gap-2 ">
+                <div className="[&>*]:rounded-xl [&>*]:bg-[#818384] [&>*]:w-7  [&>*]:h-10 flex gap-1 md:gap-2 [&>*]:md:w-10  [&>*]:md:h-15 ">
                     
                     <button onClick={handleZ}> Z </button>
                     <button onClick={handleX}> X </button>
